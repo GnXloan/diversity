@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="en" style="zoom: 85%;">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+        <meta name="description" content="La Montagne Des Écus">
+
+
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/24b38c7cb1.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/gh/leonardosnt/mc-player-counter/dist/mc-player-counter.min.js"></script>
+
+
+
+        <link rel="shortcut icon" href="favicon.ico" />
+
+
+
+
+        <title class='webistetitle'>La Montagne Des Écus</title>
+
+
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a href="page.html"><img src="img/serverlogo.png" style="width: 50px; padding-right: 10px;"></a>
+                <a class="navbar-brand" href="page.html">La Montagne Des Écus</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#team">Team</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                À propos de nous
+                            </a>
+                            <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item bg-dark" href="#contact">
+                                    <b class="textwhite">Contact</b>
+                                </a>
+                            </div>  
+                        </li>
+                    </ul> 
+                </div>
+            </div>
+        </nav>
+
+
+        <header>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+
+                    <div class="carousel-item active" style="background-image: url(img/1.jpeg)">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3 class="display-4 textblack backgray">Un événement unique</h3>
+                            <p class="lead textblack backgray">Ce sera une aventure passionnante!</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" style="background-image: url(img/2.jpeg)">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3 class="display-4 textblack backgray">Une cité médiatisée</h3>
+                            <p class="lead textblack backgray">Vos streamer préférés y participeront!</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" style="background-image: url(img/3.jpeg)">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3 class="display-4 textblack backgray">Le premier événement d'une longue lignée</h3>
+                            <p class="lead textblack backgray">Il s'agit du premier événement de notre équipe si il marche bien nous pourrions en refaire!</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </header>
+
+        <section class="py-5" style="margin-top: 1rem;">
+            <div class="container">
+                <form>
+                    <intput type="text" name="username" id="username" placeholder="Entrez un nom d'utilisateur"><br>
+                    <intput type="email" name="useremail" id="useremail" placeholder="Entrez un nom d'utilisateur"><br>
+                    <intput type="submit" name="formsend" id="formsend"><br>
+                </form>
+            </div>
+        </section>
+
+        <section>
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col left col-sm-12 col-lg-6">
+                                    <img src="img/minecraft-chest.jpg" alt="" srcset="" class="img-news">
+                                </div>
+                                <div class="col left col-sm-12 col-lg-6">
+                                    <br>
+                            
+                                    
+                                    <p>
+                                        La montagne des écus est un événement de type cité, comme beaucoup des événements minecraft dernièrement. 
+                                        Mais celui là est différent, certes il y auras bien les phases de farming, de mini-jeux et de PvP, Mais en plus de cela il y auras une phase de recherche qui consistera a rechercher sur la map de 60000 par 60000 blocks les sacs d'écus.
+
+                                        <br>
+                                        Ce sont des items customs donnant vraiment beaucoup d'écus, la monnaie du jeu. L'objectif des différentes équipes sera de récolter un maximum d'écus dans le temps imparti, qui est d'une semaine. 
+                                                                     
+                                        <br>
+                                        Mais attention pour gagner il ne faudra pas seulement beaucoup farmer 
+                                        le classement final se fera sur la moyenne des 3 différents classement qui sont: le PvP, le nombre d'écus et le nombre de victoires aux événements. 
+
+                                        <br>
+                                        Pour gagner les équipes devront faire en sorte d'être en haut de tous les tableaux.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+        <section class="py-5" style="margin-top: 1rem;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <h4 class="display-4">caractéristiques</h4>
+                        <p class="lead">quelques caractéristiques de la cité.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section> 
+            <div class="container">
+                <div class="row center container" style="margin-right: 0px; margin-left: 0px;">
+
+                    <div class="textblack main-f-color featureboxes col-sm-12 col-md-4">
+                        <img class="img-featureboxes" src="img/features2.png" alt="" srcset="" style="padding-top: 10px;">
+                        <h5 class="textblack">Le farm</h5>
+                        <p class="textblack">
+                            Cet événement est avant tout un farm to win, pour gagner il faut jouer!
+                            <br>
+                            Les joueurs devront récupérer des ressources pour, par la suite, les échanger contres des écus afin des décrocher la victoire.
+                        </p>
+                    </div>
+
+
+                    <div class="textblack main-f-color featureboxes col-sm-12 col-md-4">
+                        <img class="img-featureboxes" src="img/features1.png" alt="" srcset="" style="padding-top: 10px;">
+                        <h5 class="textblack">Les événements</h5>
+                        <p class="textblack">
+                            Chaques soir les joueurs pourront participer à des événements en jeu leurs permettant de récupérer des écus.
+                            <br>
+                            Ce sera alors le moment de se changer les idées après la journée de farm.
+                        </p>
+                    </div>
+
+                    <div class="textblack main-f-color featureboxes col-sm-12 col-md-4">
+                        <img class="img-featureboxes" src="img/features3.png" alt="" srcset="" style="padding-top: 10px;">
+                        <h5 class="textblack">Le PvP</h5>
+                        <p class="textblack">
+                            La montagne des écus en plus d'être tournés vers le farm de ressources, dispose aussi d'une partie PvP.
+                            <br>
+                            Les joueurs devront trouver et tuer leurs adversaires pour les ralentir dans leur farm.
+                            <br>
+                            De plus à la fin de l'événement il y aura un classement PvP récompensant les joueurs ayant tués le plus d'adversaires.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        
+        <div id="team">
+        </div>
+
+        <section class="py-5" style="margin-top: 1rem;">
+            <div class="container">
+                <h4 class="display-4">Notre Équipe</h4>
+                <p class="lead">Des personnes dévoués pour que l'événement soit le mieux possible!</p>
+            </div>
+        </section>
+
+        <section style="padding-bottom: 3rem;">
+                <div class="container">
+                    <div class="card-deck">
+                        <div class="row">
+
+                            <div class="col-sm-12 col-md-3 col-lg-3">
+                                <div class="card border-success">
+                                    <div class="container">
+                                        <img class="card-img-top" src="https://minotar.net/avatar/SirSlimiy" alt="Card image cap">
+                                    </div>
+                                    <div class="card-body">
+                                        <h4 class="card-title">
+                                            SirSlimiy
+                                        </h4>
+
+                                        <h6 class="card-title" style="color: magenta;">
+                                            [Organisateur]
+                                        </h6>
+
+                                        <p class="card-text">
+                                            SirSlimiy est le Organisateur de la montagne des écus.
+                                            Il est l'inventeur de cet événement et il se donne a fond pour voir son projet se réaliser.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-sm-12 col-md-3 col-lg-3">
+                                <div class="card border-success">
+                                    <div class="container">
+                                        <img class="card-img-top" src="https://minotar.net/avatar/LQF_ByNow_" alt="Card image cap">
+                                    </div>
+                                    <div class="card-body">
+                                        <h4 class="card-title">
+                                            LQF_ByNow_
+                                        </h4>
+
+                                        <h6 class="card-title" style="color: magenta;">
+
+                                        [Co-organisateur]
+                                        </h6>
+                                        <p class="card-text">
+                                        LQF_ByNow_ est le co-organisateur de la montagne des écus.
+                                        Il est le principal développeur de l'événement, il a presque tout fait, tels que le script, le launcher, ...
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-sm-12 col-md-3 col-lg-3">
+                                <div class="card border-success">
+                                    <div class="container">
+                                        <img class="card-img-top" src="https://minotar.net/avatar/GnX__" alt="Card image cap">
+                                    </div>
+                                    <div class="card-body">
+                                        <h4 class="card-title">
+                                            GnX__
+                                        </h4>
+                                        <h6 class="card-title" style="color: red;">
+                                            [Moderateur]
+                                        </h6>
+                                        <p class="card-text">
+                                            GnX__ est le modérateur principal de la cité.
+                                            Il sanctionne les tricheurs durant l'événement et aide aussi les organisateurs dans le développement de la cité.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-sm-12 col-md-3 col-lg-3">
+                                <div class="card border-success">
+                                    <div class="container">
+                                        <img class="card-img-top" src="https://minotar.net/avatar/Nairos_YT" alt="Card image cap">
+                                    </div>
+                                    <div class="card-body">
+                                        <h4 class="card-title">
+                                            Nairos_YT
+                                        </h4>
+
+                                        <h6 class="card-title" style="color: orange;">
+                                            [Helper]
+                                        </h6>
+
+                                        <p class="card-text">
+                                            Nairos_YT
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div class="centrage">
+            <div class="slider">
+                <div class="slide-track">
+                    <div class="slide">
+                    <img src="img/instantgaming2.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                    <img src="img/instantgaming2.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact"></div>
+
+
+        <footer class="page-footer font-small bg-dark pt-4">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-6 mb-4">
+                        <h4 style="color: white;">Créateur du site</h4>
+                        <p class="textgray">
+                            Site créé par Loan, alias GnX__ .
+                            <br>
+                            Développeur web amateur.
+                            <br>
+                            Si mes services vous intéressent contactez moi sur discord
+                            <br>
+                            GnX__#3523
+                        </p>
+                    </div>
+
+
+                    <div class="col-md-6 mb-4">
+                        <h4 style="color: white;">Nos réseaux</h4><br>
+                        <div class="row">
+
+                            <div class="col-sm-12 col-md-3">
+                                <a class="medias" href="https://discord.gg/Mhd2Cjbn">
+                                <i class="fab fa-discord fa-2x" style="color: #7289DA;"></i>
+                                Discord
+                                </a>
+                            </div>
+
+                            <div class="col-sm-12 col-md-3">
+                                <a class="medias" href="https://www.youtube.com/@lamontagnedesecus">
+                                <i class="fab fa-youtube fa-2x" style="color: red;"></i>
+                                Youtube
+                                </a>
+                            </div>
+
+                            <div class="col-sm-12 col-md-3">
+                                <a class="medias" href="https://www.tiktok.com/@lamontagnedesecus">
+                                <img src="img/tik-tok.png" alt="logo tiktok" />
+                                TikTok
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="footer-copyright page-footer text-center py-3" style="color: white; background-color: rgb(37, 41, 46);">
+                © 2023 Copyright:
+                <a href="page.html">La montagne des écus</a>
+            </div>
+        </footer>
+
+
+        <style>
+            .card {
+                margin-top: 10px;
+                transition: 0.5s;
+            }
+        
+            .card:hover {
+                transform: scale(1.01);
+                transition: 0.5s;
+            }
+        </style>
+
+
+        <script type="text/javascript" src="js/playercount.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    </body>
+</html>
