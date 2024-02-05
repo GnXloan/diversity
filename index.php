@@ -98,13 +98,19 @@
 
         <section class="py-5" style="margin-top: 1rem;">
             <div class="container">
-                <form>
+                <form method="post">
                     <intput type="text" name="username" id="username" placeholder="Entrez un nom d'utilisateur"><br>
                     <intput type="email" name="useremail" id="useremail" placeholder="Entrez un nom d'utilisateur"><br>
                     <intput type="submit" name="formsend" id="formsend"><br>
                 </form>
             </div>
         </section>
+
+        <?php
+            if(isset($_POST['formsend'])){
+                echo "lol";
+            }
+        ?>
 
         <section>
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
