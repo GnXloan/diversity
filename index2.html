@@ -96,21 +96,24 @@
             </div>
         </header>
 
-        <section class="py-5" style="margin-top: 1rem;">
-            <div class="container">
-                <form method="post">
-                    <intput type="text" name="username" id="username" placeholder="Entrez un nom d'utilisateur"><br>
-                    <intput type="email" name="useremail" id="useremail" placeholder="Entrez un nom d'utilisateur"><br>
-                    <intput type="submit" name="formsend" id="formsend"><br>
-                </form>
-            </div>
-        </section>
+        <form method="post">
+            <intput type="text" name="username" id="username" placeholder="Entrez un nom d'utilisateur"><br>
+            <intput type="email" name="useremail" id="useremail" placeholder="Entrez un nom d'utilisateur"><br>
+            <intput type="submit" name="formsend" id="formsend"><br>
+        </form>
 
         <?php
             if(isset($_POST['formsend'])){
                 echo "lol";
             }
         ?>
+
+        <section class="py-5" style="margin-top: 1rem;">
+            <div class="container">
+                <h4 class="display-4">Description</h4>
+                <p class="lead">une brève description de la montagne des écus.</p>
+            </div>
+        </section>
 
         <section>
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
